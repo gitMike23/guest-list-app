@@ -11,7 +11,7 @@ const Backdrop = (props) => {
 }
 
 const Modal = (props) => {
-    <Card className={classes.modal}>
+    return <Card className={classes.modal}>
         <header className={classes.header}>
             <h2>{props.title}</h2>
         </header>
